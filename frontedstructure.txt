@@ -1,0 +1,41 @@
+frontend/
+│
+├── src/
+│   ├── api/                # API calls for backend
+│   │   ├── userApi.js      # User-related APIs
+│   │   ├── loanApi.js      # Loan-related APIs
+│   │   ├── adminApi.js     # Admin-related APIs
+│   │
+│   ├── components/         # Reusable components
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── LoanCard.jsx    # Component for displaying loan details
+│   │
+│   ├── context/            # Global state (Context API)
+│   │   ├── AuthContext.jsx
+│   │
+│   ├── hooks/              # Custom hooks
+│   │   ├── useAuth.js      # Authentication hooks
+│   │
+│   ├── layouts/            # Layout wrappers
+│   │   ├── MainLayout.jsx  # Common layout for all pages
+│   │
+│   ├── pages/              # Application pages
+│   │   ├── Home.jsx        # Home page
+│   │   ├── Login.jsx       # Login page
+│   │   ├── Signup.jsx      # Signup page
+│   │   ├── Loans.jsx       # Loans page
+│   │   ├── Guarantors.jsx  # Guarantor page
+│   │
+│   ├── services/           # API service layer
+│   │   ├── api.js          # Base API setup with axios
+│   │
+│   ├── styles/             # Global and reusable styles
+│   │   ├── index.css       # Tailwind CSS main file
+│   │
+│   ├── App.jsx             # Main App component
+│   ├── main.jsx            # ReactDOM render
+│
+├── .env                    # Environment variables (frontend)
+├── package.json
+├── vite.config.js          # Vite config

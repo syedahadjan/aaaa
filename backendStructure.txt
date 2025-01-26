@@ -1,0 +1,24 @@
+backend/
+│
+├── models/          # Mongoose Schemas
+│   ├── User.js
+│   ├── Loan.js
+│   ├── Guarantor.js
+│
+├── routes/          # API Routes
+│   ├── userRoutes.js
+│   ├── loanRoutes.js
+│   ├── adminRoutes.js
+│
+├── controllers/     # Logic for routes
+│   ├── userController.js
+│   ├── loanController.js
+│
+├── config/          # Database connection, env setup
+│   ├── db.js
+│
+├── middleware/      # Authentication middleware
+│   ├── auth.js
+│
+├── .env             # Environment variables
+├── index.js        # Entry point 
